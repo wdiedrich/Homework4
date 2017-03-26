@@ -14,22 +14,22 @@
     <body>
         <h1>Add A New Dream Car</h1>
         
-        <form name="addForm" action="addFriend" method="get">
+        <form name="addForm" action="addCar" method="get">
             
             <label>Make</label>
-            <input type="text" name="name" value="" />
+            <input type="text" name="make" value="" />
             <br>
             <label>Model</label>
-            <input type="text" name="name" value="" />
+            <input type="text" name="model" value="" />
             <br>
             <label>Color</label>
-            <input type="text" name="name" value="" />
+            <input type="text" name="color" value="" />
             <br>
             <label>Year</label>
-            <input type="text" name="name" value="" />
+            <input type="text" name="year" value="" />
             <br>
             <label>Type</label>
-            <input type="text" name="name" value="" />
+            <input type="text" name="type" value="" />
             <br>
             <input type="submit" name="submit" value="Submit" />
         </form>

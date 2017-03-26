@@ -17,5 +17,8 @@
     <body>
         <h1>Austin's Dream Cars</h1>
         <%= table %>
+        
+        <br><br>
+        <a href="add">Add New Dream Car</a>
     </body>
 </html>

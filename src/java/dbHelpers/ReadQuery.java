@@ -102,6 +102,11 @@ public class ReadQuery {
                 table += car.getCarType();
                 table += "</td>";
                 
+                
+                table+= "<td>";
+                table += "<a href=delete?carID="+ car.getCarID() +"> Delete </a>";
+                table += "</td>";
+                
                 table += "<tr>";
             }
         } catch (SQLException ex) {

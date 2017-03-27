@@ -64,7 +64,7 @@ public class ReadQuery {
     public String getHTMLTable(){
         
         String table = "";
-        table += "<table border=1>";
+        table += "<table>";
         
         try {
             

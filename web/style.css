@@ -15,21 +15,61 @@ border{
 table{
     background: #FFFFFF;
     color: #FFFFFF;
-    padding: 10px;
+    border-collapse: collapse;
+    border: 1px solid black;
+    width: 100%
     
 }
 
 th{
     background: #FFFF99;
     color: #696969;
+    border-bottom: 1px solid black;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+}
+
+td{
+    background: #F08080;
+    text-align: center;
+    vertical-align: bottom;
+    height: 20px;
+    
 }
 
 tr{
-    background: #F08080;
+    border-bottom: 1px solid black;
 }
 
-.button{
-    background: #FFFFFF;
-    padding: 5px;
-    width: 15%
+tr:hover{
+    background:#CCCCCC;
+}
+
+tr:nth-child(even){
+    background-color: #F2F2F2
+}
+
+tr:nth-child(odd){
+    background-color: #EDEDED;
+}
+
+.centerText{
+    text-align: center;
+}
+
+form{
+    font-size: 125%;
+    color: #FFFFFF;
+    text-align: left;
+    background-color: #F08080;
+    border: 1px solid black;
+    width: 45%;
+    padding: 2px;
+}
+
+input[type=text]{
+    width: 80%;
+    height: 20px;
+    border: 1px solid black;
 }

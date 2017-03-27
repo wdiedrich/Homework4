@@ -13,25 +13,32 @@
         <link rel="stylesheet" type="text/css" href="style.css" />
     </head>
     <body>
+        <div class="centerText">
         <h1>Add A New Dream Car</h1>
+        </div>
         
         <form name="addForm" action="addCar" method="get">
             
-            <label>Make</label>
+            <label>Make:</label>
+            <br>
             <input type="text" name="make" value="" />
             <br>
-            <label>Model</label>
+            <label>Model:</label>
+            <br>
             <input type="text" name="model" value="" />
             <br>
-            <label>Color</label>
+            <label>Color:</label>
+            <br>
             <input type="text" name="color" value="" />
             <br>
-            <label>Year</label>
+            <label>Year:</label>
+            <br>
             <input type="text" name="year" value="" />
             <br>
-            <label>Type</label>
-            <input type="text" name="type" value="" />
+            <label>Type:</label>
             <br>
+            <input type="text" name="type" value="" />
+            <br><br>
             <input type="submit" name="submit" value="Submit" />
         </form>
     </body>

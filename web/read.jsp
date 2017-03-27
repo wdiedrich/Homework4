@@ -16,12 +16,12 @@
     <% String table = (String) request.getAttribute("table"); %>
     
     <body>
+        <div class="centerText">
         <h1>Austin's Dream Cars</h1>
+        </div>
         <%= table %>
         
-        <br>
-        <div class="button">
+        <br>   
         <a href="add">Add New Dream Car</a>
-        </div>
     </body>
 </html>

@@ -67,6 +67,11 @@ public class ReadQuery {
         table += "<table border=1>";
         
         try {
+            
+                table+= "<tr>";
+                    table += "<th>Make</th><th>Model</th><th>Color</th><th>Year</th><th>Type</th><th>Action</th>";
+                table+= "</tr>";
+            
             while(this.results.next()){
                 
                 Cars car = new Cars();
@@ -76,12 +81,12 @@ public class ReadQuery {
                 car.setFavColor(this.results.getString("favColor"));
                 car.setCarYear(this.results.getInt("carYear"));
                 car.setCarType(this.results.getString("carType"));
-                
+                /*
                 table += "<tr>";
                 table += "<td>";
                 table += car.getCarID();
                 table += "</td>";
-                
+                */
                 table += "<td>";
                 table += car.getCarMake();
                 table += "</td>";
@@ -102,11 +107,10 @@ public class ReadQuery {
                 table += car.getCarType();
                 table += "</td>";
                 
-                
                 table+= "<td>";
                 table += "<a href=delete?carID="+ car.getCarID() +"> Delete </a>";
                 table += "</td>";
-                
+            
                 table += "<tr>";
             }
         } catch (SQLException ex) {

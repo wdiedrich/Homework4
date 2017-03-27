@@ -1,0 +1,35 @@
+body{
+    background: #D2B48C;
+}
+
+h1 {
+    background: #F08080;
+    color: #FFFFFF;
+    width: 100%
+}
+
+border{
+    background: #FFFFFF;
+}
+
+table{
+    background: #FFFFFF;
+    color: #FFFFFF;
+    padding: 10px;
+    
+}
+
+th{
+    background: #FFFF99;
+    color: #696969;
+}
+
+tr{
+    background: #F08080;
+}
+
+.button{
+    background: #FFFFFF;
+    padding: 5px;
+    width: 15%
+}

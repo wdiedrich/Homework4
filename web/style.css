@@ -31,7 +31,6 @@ th{
 }
 
 td{
-    background: #F08080;
     text-align: center;
     vertical-align: bottom;
     height: 20px;
@@ -42,16 +41,17 @@ tr{
     border-bottom: 1px solid black;
 }
 
-tr:hover{
-    background:#CCCCCC;
-}
 
 tr:nth-child(even){
-    background-color: #F2F2F2
+    background-color: #F08080;
 }
 
 tr:nth-child(odd){
-    background-color: #EDEDED;
+    background-color: #999999;
+}
+
+tr:hover{
+    background:#CCCCCC;
 }
 
 .centerText{

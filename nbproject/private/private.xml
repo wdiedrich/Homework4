@@ -3,11 +3,10 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Di3drich/Documents/NetBeansProjects/carsApp/src/java/dbHelpers/ReadQuery.java</file>
-            <file>file:/C:/Users/Di3drich/Documents/NetBeansProjects/carsApp/src/java/controller/Read.java</file>
             <file>file:/C:/Users/Di3drich/Documents/NetBeansProjects/carsApp/web/read.jsp</file>
-            <file>file:/C:/Users/Di3drich/Documents/NetBeansProjects/carsApp/src/java/model/Cars.java</file>
-            <file>file:/C:/Users/Di3drich/Documents/NetBeansProjects/carsApp/src/java/dbHelpers/dbConn.properties</file>
+            <file>file:/C:/Users/Di3drich/Documents/NetBeansProjects/carsApp/src/java/dbHelpers/ReadQuery.java</file>
+            <file>file:/C:/Users/Di3drich/Documents/NetBeansProjects/carsApp/web/style.css</file>
+            <file>file:/C:/Users/Di3drich/Documents/NetBeansProjects/carsApp/web/add.jsp</file>
             <file>file:/C:/Users/Di3drich/Documents/NetBeansProjects/carsApp/web/index.jsp</file>
         </group>
     </open-files>

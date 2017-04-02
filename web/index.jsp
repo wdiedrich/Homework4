@@ -10,5 +10,7 @@
         <h1>My Dream Cars Database</h1>
         
         <a href="read">View My Dream Cars</a>
+        <br><br>
+        <a href="search.jsp">Search My Dream Cars by Make</a>
     </body>
 </html>

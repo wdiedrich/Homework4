@@ -37,7 +37,6 @@
             <input type="text" name="type" value="<%= car.getCarType() %>" />
             <br><br>
             
-            <input type="reset" name="reset" value="Clear" />
             <input type="submit" name="submit" value="Update" />
         </form>
     </body>

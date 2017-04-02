@@ -23,5 +23,7 @@
         
         <br>   
         <a href="add">Add New Dream Car</a>
+        <br><br>
+        <a href="search.jsp">Search My Dream Cars by Make</a>
     </body>
 </html>

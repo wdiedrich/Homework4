@@ -17,25 +17,9 @@
     <body>
         <div class="wrap">
 
-
-            <div class="headerImg">
-                <img src="images/car.jpg" width='300' height ='150' alt='Cars' />
-            </div>
-
-
-            <div class="headerText">
-                <h1>Add A New Dream Car</h1>
-            </div>
-
-
-            <div class="navcontainer">
-                <ul class="navlist">
-                    <li class="active"><a href="index.jsp" id="current">Home</a></li>
-                    <li><a href="read">View My Dream Cars</a></li>
-                    <li><a href="add">Add New Dream Car</a></li>
-                    <li><a href="search.jsp">Search My Dream Cars by Make</a></li>
-                </ul>
-            </div>
+            <%@ include file="includes/header.jsp" %>
+            <%@ include file="includes/menu.jsp" %>
+            <h1>Add A New Dream Car</h1>
 
             <div class="main">
                 <form name="addForm" action="addCar" method="get">
@@ -66,10 +50,7 @@
                 </form>
             </div> 
 
-            <div class="footer">
-                <hr>
-                Copyright 2017 SoftwareDesignAndDevelopment.com | All rights reserved
-            </div>   
+            <%@ include file="includes/footer.jsp" %>
 
 
         </div>

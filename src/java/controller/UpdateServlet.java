@@ -77,6 +77,7 @@ public class UpdateServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         
+            int carID = Integer.parseInt(request.getParameter("carID"));
             String carMake = request.getParameter("make");
             String carModel = request.getParameter("model");
             String favColor = request.getParameter("color");
@@ -84,6 +85,7 @@ public class UpdateServlet extends HttpServlet {
             String carType = request.getParameter("type");
             
             Cars car = new Cars();
+            car.setCarID(carID);
             car.setCarMake(carMake);
             car.setCarModel(carModel);
             car.setFavColor(favColor);

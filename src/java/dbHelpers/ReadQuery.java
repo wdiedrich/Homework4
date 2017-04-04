@@ -69,7 +69,7 @@ public class ReadQuery {
         try {
             
                 table+= "<tr>";
-                    table += "<th>Make</th><th>Model</th><th>Color</th><th>Year</th><th>Type</th><th>Action</th>";
+                    table += "<th>ID</th><th>Make</th><th>Model</th><th>Color</th><th>Year</th><th>Type</th><th>Action</th>";
                 table+= "</tr>";
             
             while(this.results.next()){
@@ -81,12 +81,12 @@ public class ReadQuery {
                 car.setFavColor(this.results.getString("favColor"));
                 car.setCarYear(this.results.getInt("carYear"));
                 car.setCarType(this.results.getString("carType"));
-                /*
+                
                 table += "<tr>";
                 table += "<td>";
                 table += car.getCarID();
                 table += "</td>";
-                */
+                
                 table += "<td>";
                 table += car.getCarMake();
                 table += "</td>";

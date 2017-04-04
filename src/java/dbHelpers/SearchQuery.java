@@ -76,8 +76,9 @@ public class SearchQuery {
 
             if (!this.results.isBeforeFirst()) {
                 table += "<tr>";
-                table += "<td colspan='7' Sorry, this Make does not exist in the database</td>";
+                table += "<td colspan='7'> Sorry, this Make does not exist in the database</td>";
                 table += "</tr>";
+                table += "</table>";
             } else {
 
                 try {
